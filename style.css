@@ -1,0 +1,13 @@
+label, input {
+    display: block;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    line-height: 1.6;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

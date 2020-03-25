@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Liquid calculator</title>
+  </head>
+  <body>
+    <h1>Liquid mix calculator</h1>
+    <h2>Ingredients</h2>
+    <div>
+      <label for="nicotine">Nicotine in ml</label>
+      <input id="nicotine" name="nicotine" type="number" min="0" value="0" />
+    </div>
+    <div>
+      <label for="nicotine_strength">Nicotine strength mg / ml</label>
+      <input id="nicotine_strength" name="nicotine_strength" type="number" min="0" value="0" />
+    </div>
+    <div>
+      <label for="aroma">Aroma  in ml</label>
+      <input id="aroma" name="aroma" type="number" min="0" value="0" />
+    </div>
+    <div>
+      <label for="propylenglykol">Propylene glycol  in ml</label>
+      <input
+        id="propylenglykol"
+        name="propylenglykol"
+        type="number"
+        min="0"
+        value="0"
+      />
+    </div>
+    <div>
+      <label for="glycerol">Glycerol  in ml</label>
+      <input id="glycerol" name="glycerol" type="number" min="0" value="0" />
+    </div>
+    <h3><span>Total amount </span><span id="total">0</span><span> ml</span></h3>
+    <h3>
+      <span>Percentage PG </span><span id="pct_pg">0</span><span> %</span>
+    </h3>
+    <h3>
+      <span>Percentage VG </span><span id="pct_vg">0</span><span> %</span>
+    </h3>
+    <h3>
+      <span>Nicotine strength </span><span id="str_nct">0</span
+      ><span> mg</span>
+    </h3>
+    <h3>
+      <span>Percentage Aroma </span><span id="pct_ar">0</span><span> %</span>
+    </h3>
+  </body>
+</html>
